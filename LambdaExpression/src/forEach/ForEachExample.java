@@ -18,7 +18,7 @@ public class ForEachExample {
         System.out.println("== Iterating through SET ==");
         productSet.forEach(System.out::println);
 
-        //iterating over a collection - map
+        //iterating over a - map
         Map<String, Product> productMap = new HashMap<>();
         productMap.put("Electronics", new Product(1, "TV"));
         productMap.put("Hardware", new Product(2, "cycle"));
