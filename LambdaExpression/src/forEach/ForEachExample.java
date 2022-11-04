@@ -10,15 +10,13 @@ public class ForEachExample {
 
         //iterating over a collection - list
         System.out.println("== Iterating through LIST == ");
-        productList.stream()
-                .forEach(System.out::println);
+        productList.forEach(System.out::println);
 
         //iterating over a collection - set
         Set<Product> productSet = new HashSet<>(Arrays.asList(new Product(1, "TV"), new Product(2, "Book"),
                 new Product(3, "Computer")));
         System.out.println("== Iterating through SET ==");
-        productSet.stream()
-                .forEach(System.out::println);
+        productSet.forEach(System.out::println);
 
         //iterating over a - map
         Map<String, Product> productMap = new HashMap<>();
