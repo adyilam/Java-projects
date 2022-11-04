@@ -18,7 +18,7 @@ public class StreamDemo {
         itemList.add(new Item(03, "computer", "700"));
         itemList.add(new Item(04, "speaker", "400"));
 
-        //display items price less than $600
+        //display items, there price less than $600
         //without stream
         for (Item item : itemList) {
             if (Integer.parseInt(item.getPrice()) < 600) {
