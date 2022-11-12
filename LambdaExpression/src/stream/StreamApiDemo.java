@@ -45,8 +45,6 @@ public class StreamApiDemo {
         Map<Integer, String> itemsToMap = itemList.stream()
                 .collect(Collectors.toMap(item -> item.getItemNo(), item -> item.getItemName()));
         System.out.println("Items in Map: " + itemsToMap);
-
-        //That is all for TODAY!
-        //Thank you for watching!.
+        
     }
 }
