@@ -64,9 +64,26 @@ public class StreamApiDemo {
         //java8 using Optional
         Optional<Employee> employee1 = Optional.ofNullable(employee);
         String emp = employee1
-                .map(e -> e.getName() + " " + e.getAddress().getState())
+                .map(e -> e.getName() + " " + e.getAddress().getState()) //convert getName(),getAddress to Optional
                 .orElse("Employee record not found!");
         System.out.println(emp);
+
+        //more Optional example
+        int num1 = 5;
+        Integer num2 = null;
+
+        //this will throw NPE because num2 is null
+        SimpleCalculatorImpl simpleCalculator = new SimpleCalculatorImpl();
+        //System.out.println(simpleCalculator.add(num1, num2)); //Cannot invoke "java.lang.Integer.intValue()" because "number2" is null
+        //System.out.println(simpleCalculator.divide(num1, num2)); //throws null-pointer exception,because num2 is null
+
+
+        //Java8 optional allows passing parameter as null value
+        Optional<Integer> number1 = Optional.of(num1);
+        Optional<Integer> number2 = Optional.ofNullable(num2);
+
+        System.out.println("Sum: " + simpleCalculator.add(number1, number2));
+        System.out.println("Division: " + simpleCalculator.divide(number1, number2));
 
     }
 }
