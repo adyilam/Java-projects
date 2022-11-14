@@ -3,6 +3,7 @@ package stream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class StreamApiDemo {
@@ -45,6 +46,27 @@ public class StreamApiDemo {
         Map<Integer, String> itemsToMap = itemList.stream()
                 .collect(Collectors.toMap(item -> item.getItemNo(), item -> item.getItemName()));
         System.out.println("Items in Map: " + itemsToMap);
-        
+
+        //find employee name with his state address
+        Employee employee = new Employee(1, "Smith",
+                new Address("777 5th avenue", "GA", "Decatur", "30033"));
+        //pre-java8
+        if (employee != null) {
+            Address address = employee.getAddress();
+            if (address != null) {
+                String state = address.getState();
+                if (state != null) {
+                    System.out.println(employee.getName() + " " + state);
+                }
+            }
+        }
+
+        //java8 using Optional
+        Optional<Employee> employee1 = Optional.ofNullable(employee);
+        String emp = employee1
+                .map(e -> e.getName() + " " + e.getAddress().getState())
+                .orElse("Employee record not found!");
+        System.out.println(emp);
+
     }
 }
