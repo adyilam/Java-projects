@@ -14,17 +14,17 @@ public class base64Demo {
         String string = "Hello there! Nov25.22";
 
         //encode string
-        String encodedString = null;
+        String encodedStringValue = null;
         try {
-            encodedString = encodeString(string);
-            System.out.println("Base64 encoded String: " + encodedString);
+            encodedStringValue = encodeString(string);
+            System.out.println("Base64 encoded String: " + encodedStringValue);
         } catch (UnsupportedEncodingException e) {
             log.warning("Encode Exception in encodeString{}  " + e);
         }
 
         //decoding string
-        assert encodedString != null;
-        String decodedString = decodeString(encodedString);
+        assert encodedStringValue != null;
+        String decodedString = decodeString(encodedStringValue);
         System.out.println("Base64 decoded string: " + decodedString);
     }
 
