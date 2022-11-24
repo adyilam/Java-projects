@@ -1,4 +1,4 @@
-package Lambda;
+package javaFeatures.java8.lambda;
 
 public class MathOperationDriver {
     public static void main(String[] args) {

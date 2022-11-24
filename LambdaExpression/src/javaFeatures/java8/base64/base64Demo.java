@@ -1,4 +1,4 @@
-package base64;
+package javaFeatures.java8.base64;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;

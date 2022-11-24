@@ -1,4 +1,4 @@
-package forEach;
+package javaFeatures.java8.forEach;
 
 public class Product {
     private int productId;

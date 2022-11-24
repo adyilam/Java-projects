@@ -1,4 +1,4 @@
-package stream;
+package javaFeatures.java8.stream;
 
 public class Address {
     private String street;

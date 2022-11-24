@@ -1,4 +1,4 @@
-package Lambda;
+package javaFeatures.java8.lambda;
 
 public interface MathOperation {
 

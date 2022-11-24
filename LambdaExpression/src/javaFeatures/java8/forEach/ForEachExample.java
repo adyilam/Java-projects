@@ -1,8 +1,9 @@
-package forEach;
+package javaFeatures.java8.forEach;
 
 import java.util.*;
 
 public class ForEachExample {
+
     public static void main(String[] args) {
         //add list of products
         List<Product> productList = Arrays.asList(new Product(1, "TV"), new Product(2, "Book"),

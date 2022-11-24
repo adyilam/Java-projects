@@ -1,4 +1,4 @@
-package stream;
+package javaFeatures.java8.stream;
 
 import java.util.ArrayList;
 import java.util.List;

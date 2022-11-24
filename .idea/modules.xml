@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Java8Demo.iml" filepath="$PROJECT_DIR$/.idea/Java8Demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LambdaExpression/LambdaExpression.iml" filepath="$PROJECT_DIR$/LambdaExpression/LambdaExpression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LambdaExpression/javaFeatures.iml" filepath="$PROJECT_DIR$/LambdaExpression/javaFeatures.iml" />
     </modules>
   </component>
 </project>
