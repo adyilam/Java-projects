@@ -31,6 +31,7 @@ public class streamBreak {
         //List.of
         List<Item> list = List.of(new Item(1, "Car"), new Item(2, "House")); //already immutable
         list.add(new Item(3, "Train")); // throws UnsupportedOperationException
+
     }
 
 
