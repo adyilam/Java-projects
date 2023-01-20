@@ -57,5 +57,3 @@ public class EmployeeSorter {
 
     }
 }
-
-//THANKS FOR WATCHING!! :)

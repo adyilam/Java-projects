@@ -29,6 +29,3 @@ public class FibonacciImplDriver {
         }
     }
 }
-//Let us test fibonacciIterative() function,
-//Thanks for watching, will see you in our next video!!
-//PLEASE SUBSCRIBE FOR MORE VIDEOS :)
