@@ -42,6 +42,3 @@ public class BobbleSort {
         numbers[j] = temp;
     }
 }
-
-//Let us run again after refactoring
-//ALL GOOD, THANKS FOR WATCHING, PLEASE SUBSCRIBE OR MORE VIDEO.  :)
