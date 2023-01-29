@@ -54,6 +54,3 @@ public class CountCharactersOfString {
         return charFreq;
     }
 }
-
-//let us run the app., doing more test
-//Thanks for watching :)

@@ -35,7 +35,3 @@ public class PrimeNumberTest {
         return false;
     }
 }
-
-
-//TIME TO TEST THE PROGRAM
-
