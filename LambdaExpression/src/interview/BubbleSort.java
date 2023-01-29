@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Implementation of a bubble sorting algorithm for integer array
  */
-public class BobbleSort {
+public class BubbleSort {
 
     public static void main(String[] args) {
         //given integer array
