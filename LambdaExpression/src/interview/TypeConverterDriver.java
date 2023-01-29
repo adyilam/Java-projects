@@ -40,7 +40,3 @@ public class TypeConverterDriver {
 
     }
 }
-
-//Thanks for watching
-
-//RUN the code
