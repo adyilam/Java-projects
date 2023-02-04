@@ -27,7 +27,7 @@ public class BinarySearch {
         } else {
             System.out.println("Number not found");
         }
-        
+
     }
 
     private static int binarySearch(int[] numbers, int low, int high, int sKey) {
