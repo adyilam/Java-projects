@@ -9,8 +9,8 @@ import java.util.Scanner;
  * Find the median of the odd numbers of an array
  * step:
  * 1. sort the numbers ascending order
- * 2. IF the given number is ODD, get the middle number in the list (n+1/2)
- * 3. ELSE if the number is EVEN, get the average of the middle two numbers,
+ * 2. IF the given number is ODD, get the middle number in the list, (n/2)
+ * 3. ELSE if the number is EVEN, get the average of the middle two numbers, (n/2 + n-1/2)
  */
 public class Median {
     public static void main(String[] args) {
