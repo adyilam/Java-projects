@@ -23,7 +23,7 @@ public class Permutation {
 
     private static boolean isPermutation(String str1, String str2) {
         //base case check
-        if (str1.length() < str2.length())
+        if (str1.length() != str2.length())
             return false;
 
         char[] str1Chars = str1.toLowerCase().toCharArray();
